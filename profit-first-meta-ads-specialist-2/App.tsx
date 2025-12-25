@@ -206,7 +206,7 @@ const App: React.FC = () => {
           <div className="lg:col-span-5 flex justify-end">
             <FadeIn delay={0.2}>
               <div className="relative w-full max-w-[360px] aspect-[4/5] rounded-[3rem] overflow-hidden border border-white/5 grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl">
-               <img src="/me.jpg" alt="Ihor" className="w-full h-full object-cover" />
+               <img src="/me.png" alt="Ihor" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                 <div className="absolute bottom-8 left-8 text-white">
                   <div className="text-2xl font-bold font-outfit uppercase tracking-tighter">Ігор Яровий</div>
