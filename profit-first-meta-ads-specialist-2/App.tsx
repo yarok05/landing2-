@@ -65,17 +65,7 @@ const ThreeDEmblem = ({ compact = false }: { compact?: boolean }) => {
   }
 
   return (
-    <div 
-      className={`relative flex items-center justify-center ${sizeClass} cursor-pointer`}
-      onMouseMove={handleMouseMove}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => {
-        mouseX.set(0);
-        mouseY.set(0);
-        setIsHovered(false);
-      }}
-      style={{ perspective: 1000 }}
-    >
+   <>
       <motion.div
         style={{ 
           rotateX: springRotateX, 
@@ -448,5 +438,6 @@ const App: React.FC = () => {
     </div>
   );
 };
-
+</>
+);
 export default App;
